@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Post__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Post */ \"./src/Post.js\");\n\n\nconst p1 = new _Post__WEBPACK_IMPORTED_MODULE_0__.default('Слава Украине!')\nconsole.log(p1.getText())\n\n//# sourceURL=webpack://webpack-learn/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Post__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Post */ \"./src/Post.js\");\n\n\nconst p1 = new _Post__WEBPACK_IMPORTED_MODULE_0__.default('Слава Украине!')\nconsole.log(p1.getText())\nconsole.log(p1.getText())\n\n//# sourceURL=webpack://webpack-learn/./src/index.js?");
 
 /***/ })
 
