@@ -1,5 +1,13 @@
-h1 {
+.welcome {
     font-size: 30px;
-    color: red;
+    color: orange;
     text-align: center;
+}
+
+.macaca {
+    background-image: url("../assets/macaca.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
 }
