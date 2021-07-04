@@ -3,9 +3,10 @@ const HTMLWebpackPlugin = require("html-webpack-plugin")
 const {CleanWebpackPlugin} = require("clean-webpack-plugin")
 
 module.exports = {
+    context: path.resolve(__dirname, 'src'),
     entry: {
-        main: path.resolve(__dirname, 'src', 'index.js'),
-        info: path.resolve(__dirname, 'src', 'info.js')
+        main: './index.js',
+        info: './info.js'
     },
     mode: "development",
     output: {
@@ -14,8 +15,16 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: path.resolve(__dirname, 'src', 'index.html')
+            template: './index.html'
         }),
         new CleanWebpackPlugin()
-    ]
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
+    }
 }

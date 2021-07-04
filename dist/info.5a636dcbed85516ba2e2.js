@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/info.js":
-/*!*********************!*\
-  !*** ./src/info.js ***!
-  \*********************/
+/***/ "./info.js":
+/*!*****************!*\
+  !*** ./info.js ***!
+  \*****************/
 /***/ (() => {
 
-eval("console.log('Info epta')\n\n//# sourceURL=webpack://webpack-learn/./src/info.js?");
+eval("console.log('Info epta')\n\n//# sourceURL=webpack:///./info.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("console.log('Info epta')\n\n//# sourceURL=webpack://webpack-learn/./src/in
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/info.js"]();
+/******/ 	__webpack_modules__["./info.js"]();
 /******/ 	
 /******/ })()
 ;
